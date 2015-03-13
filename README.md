@@ -1,2 +1,2 @@
 # framesoc.tutorials
-Tutorials for Framesoc developers
+Tutorials for [Framesoc](http://soctrace-inria.github.io/framesoc/) developers.
