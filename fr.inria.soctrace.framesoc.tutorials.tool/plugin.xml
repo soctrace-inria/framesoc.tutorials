@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="fr.inria.soctrace.framesoc.core.tool">
+      <tool
+            class="fr.inria.soctrace.framesoc.tutorials.tool.ExampleTool"
+            doc="Launch the tool and enjoy."
+            id="fr.inria.soctrace.framesoc.tutorials.tool.example"
+            name="Framesoc Tutorial Tool"
+            type="ANALYSIS">
+      </tool>
+   </extension>
+
+</plugin>
