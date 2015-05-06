@@ -11,5 +11,12 @@
             type="ANALYSIS">
       </tool>
    </extension>
+   <extension
+         point="fr.inria.soctrace.framesoc.ui.input.toolInput">
+      <toolInput
+            compositeFactory="fr.inria.soctrace.framesoc.tutorials.tool.ExampleToolInputCompositeFactory"
+            toolId="fr.inria.soctrace.framesoc.tutorials.tool.example">
+      </toolInput>
+   </extension>
 
 </plugin>
