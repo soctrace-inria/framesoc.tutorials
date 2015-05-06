@@ -18,5 +18,14 @@
             toolId="fr.inria.soctrace.framesoc.tutorials.tool.example">
       </toolInput>
    </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="fr.inria.soctrace.framesoc.tutorials.tool.ExampleView"
+            id="fr.inria.soctrace.framesoc.tutorials.tool.ExampleView"
+            name="Framesoc Tutorial Tool"
+            restorable="true">
+      </view>
+   </extension>
 
 </plugin>
