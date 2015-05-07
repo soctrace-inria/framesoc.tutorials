@@ -5,7 +5,7 @@ import fr.inria.soctrace.framesoc.core.tools.model.IFramesocToolInput;
 
 public class ExampleToolInput implements IFramesocToolInput {
 
-	public enum QueryEntity {
+	public static enum QueryEntity {
 		PRODUCERS,
 		TYPES;
 	}
