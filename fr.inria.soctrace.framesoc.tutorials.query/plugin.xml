@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="fr.inria.soctrace.framesoc.core.tool">
+      <tool
+            class="fr.inria.soctrace.framesoc.tutorials.query.QueryTool"
+            doc="Launch the tool and enjoy."
+            id="fr.inria.soctrace.framesoc.tutorials.query"
+            name="Query Tool"
+            type="ANALYSIS">
+      </tool>
+   </extension>
+
+</plugin>
