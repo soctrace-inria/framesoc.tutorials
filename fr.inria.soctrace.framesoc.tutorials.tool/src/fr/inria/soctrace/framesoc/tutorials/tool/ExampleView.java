@@ -106,7 +106,7 @@ public class ExampleView extends ViewPart {
 		List<String> input = new ArrayList<>();
 		TraceDBObject traceDB = null;
 		try {
-			traceDB = TraceDBObject.openNewIstance(trace.getDbName());
+			traceDB = TraceDBObject.openNewInstance(trace.getDbName());
 			if (queryEntity.equals(QueryEntity.TYPES)) {
 				EventTypeQuery etq = new EventTypeQuery(traceDB);
 				List<EventType> etl = etq.getList();
