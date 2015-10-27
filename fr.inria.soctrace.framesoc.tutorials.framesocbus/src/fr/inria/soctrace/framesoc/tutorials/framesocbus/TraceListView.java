@@ -107,11 +107,13 @@ public class TraceListView extends ViewPart implements IFramesocBusListener {
 	public void setFocus() {
 	}
 
-	@Override
+
 	/**
-	 * Will only receive message of the topic we subscribed to (i.e. TOPIC_UI_TRACES_SYNCHRONIZED).
-	 * If we subscribed to more than one topics, it would have been necessary to check the received typ of message
+	 * Will only receive message of the topic we subscribed to (i.e.
+	 * TOPIC_UI_TRACES_SYNCHRONIZED). If we subscribed to more than one topics,
+	 * it would have been necessary to check the received type of the message.
 	 */
+	@Override
 	public void handle(FramesocBusTopic topic, Object data) {
 		// Update the list of traces
 		refreshTraceList();
